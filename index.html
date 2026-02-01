@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jayesh Shelar | Creative Developer Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+<body>
+
+    <div class="blob"></div>
+    <div class="blob2"></div>
+
+    <nav class="navbar">
+        <div class="logo">JS<span>.</span></div>
+        <div class="hamburger">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+        </div>
+        <ul class="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <section id="home" class="hero">
+            <div class="hero-content">
+                <h2 class="reveal">Hello, I'm</h2>
+                <h1 class="reveal">Jayesh Shelar</h1>
+                <p class="tagline reveal">I <span id="typing-text"></span></p>
+                <div class="cta-group reveal">
+                    <a href="#" class="btn btn-primary open-modal-btn">View Resume</a>
+                    <a href="#contact" class="btn btn-secondary">Contact Me</a>
+                </div>
+            </div>
+            <div class="hero-image reveal">
+                <img src="assets/profile.jpg" alt="Jayesh Shelar">
+            </div>
+        </section>
+
+        <section id="about" class="about section">
+            <h2 class="section-title">About Me</h2>
+            <div class="glass-card reveal">
+                <p>I am an Electronics & Computer B.E. student at SPPU, Pune. I have built hands-on experience with Kali Linux for ethical hacking and cybersecurity. My passion lies in Python development, network analysis using Nmap/Wireshark, and creating secure, automated systems.</p>
+            </div>
+        </section>
+
+        <section id="skills" class="skills section">
+            <h2 class="section-title">Technical Expertise</h2>
+            <div class="skills-grid">
+                <div class="skill-card reveal">
+                    <span>Cybersecurity (Burp Suite, Nmap)</span>
+                    <div class="progress-bar"><div class="progress" style="width: 85%"></div></div>
+                </div>
+                <div class="skill-card reveal">
+                    <span>Frontend (React, Bootstrap)</span>
+                    <div class="progress-bar"><div class="progress" style="width: 80%"></div></div>
+                </div>
+                <div class="skill-card reveal">
+                    <span>Python & Scripting</span>
+                    <div class="progress-bar"><div class="progress" style="width: 90%"></div></div>
+                </div>
+                <div class="skill-card reveal">
+                    <span>Networking (TCP/IP, Wireshark)</span>
+                    <div class="progress-bar"><div class="progress" style="width: 75%"></div></div>
+                </div>
+            </div>
+        </section>
+
+        <section id="education" class="education section">
+            <h2 class="section-title">Education</h2>
+            <div class="timeline">
+                <div class="timeline-item reveal">
+                    <h3>B.E. Electronics & Computer</h3>
+                    <p>SPPU, Pune | Sept 2024 - July 2028 | CGPA: 8.50</p>
+                </div>
+                <div class="timeline-item reveal">
+                    <h3>HSC (Science)</h3>
+                    <p>Chh. Sambhajinagar Divisional Board | 71.83%</p>
+                </div>
+                <div class="timeline-item reveal">
+                    <h3>SSC</h3>
+                    <p>Chh. Sambhajinagar Divisional Board | 85.80%</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="experience" class="experience section">
+            <h2 class="section-title">Experience</h2>
+            <div class="timeline">
+                <div class="timeline-item reveal">
+                    <h3>SNDCOE | Student</h3>
+                    <p>Yeola, Nashik | Sept 2024 - Present</p>
+                    <p style="margin-top: 0.5rem; color: var(--text-dim); font-size: 0.9rem;">Cybersecurity labs, Kali Linux, Nmap, Wireshark, Python Automation.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="projects" class="projects section">
+            <h2 class="section-title">Featured Projects</h2>
+            <div class="project-grid">
+                <div class="project-card reveal">
+                    <div class="project-info">
+                        <h3>Jarvis Voice Assistant</h3>
+                        <p>A Python-based voice assistant for system automation, speech recognition, and OS-level interaction.</p>
+                        <div class="tech-stack">
+                            <span>Python</span><span>HTML/CSS</span><span>Automation</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="certifications" class="section">
+            <h2 class="section-title">Certifications</h2>
+            <div class="glass-card reveal">
+                <ul style="list-style-position: inside; color: var(--text-dim);">
+                    <li style="margin-bottom: 0.5rem;"><strong style="color: var(--text-main);">Digital Productivity</strong> - NIIT</li>
+                    <li><strong style="color: var(--text-main);">Design Thinking - A primer</strong> - IIT Madras</li>
+                </ul>
+            </div>
+        </section>
+
+        <section id="contact" class="contact section">
+            <h2 class="section-title">Get In Touch</h2>
+            <div class="glass-card contact-container reveal">
+                <p>Let's collaborate on your next big idea.</p>
+                <div class="contact-details" style="margin: 1.5rem 0; color: var(--text-dim); font-size: 0.95rem;">
+                    <p>📍 Chhatrapati Sambhajinagar, Maharashtra 423702</p>
+                    <p>📞 +91 9225538897</p>
+                </div>
+                <div class="social-links">
+                    <a href="https://www.linkedin.com/in/jayesh-shelar-7b897a320/" target="_blank" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                    <a href="https://github.com/cyber-jayesh" target="_blank" aria-label="GitHub"><i class="fab fa-github"></i></a>
+                    <a href="mailto:jayesh.shelar762@gmail.com" aria-label="Email"><i class="fas fa-envelope"></i></a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <a href="#" id="resumeBtn" class="btn btn-primary open-modal-btn">View Resume</a>
+
+<div id="resumeModal" class="modal">
+    <div class="modal-content glass-card">
+        <span class="close">&times;</span>
+        
+        <div class="resume-header">
+            <h2>Jayesh Shelar</h2>
+            <p>Student at SPPU | Cybersecurity Enthusiast</p>
+            <p style="font-size: 0.9rem; color: var(--text-dim);">jayesh.shelar762@gmail.com | +91 9225538897 | Chhatrapati Sambhajinagar</p>
+        </div>
+
+        <div class="resume-body">
+            <div class="resume-section">
+                <h3>Experience</h3>
+                <div class="resume-item">
+                    <h4>SNDCOE | Student</h4>
+                    <p>Yeola, Nashik | Sept 2024 - Present</p>
+                    <ul style="list-style: disc; margin-left: 20px; color: var(--text-dim); margin-top: 5px;">
+                        <li>Built hands-on experience with Kali Linux for ethical hacking and cybersecurity.</li>
+                        <li>Used Nmap and Wireshark to scan networks, analyze traffic, and identify vulnerabilities.</li>
+                        <li>Studying core networking concepts (TCP/IP, DNS, HTTP).</li>
+                        <li>Developed Python-based voice assistant (Jarvis) for system automation.</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="resume-section">
+                <h3>Education</h3>
+                <div class="resume-item">
+                    <h4>B.E. Electronics & Computer</h4>
+                    <p>SPPU, Pune | Sept 2024 - July 2028 | CGPA: 8.50</p>
+                </div>
+                <div class="resume-item">
+                    <h4>HSC (Science)</h4>
+                    <p>Chh. Sambhajinagar Divisional Board | 71.83%</p>
+                </div>
+                <div class="resume-item">
+                    <h4>SSC</h4>
+                    <p>Chh. Sambhajinagar Divisional Board | 85.80%</p>
+                </div>
+            </div>
+
+            <div class="resume-section">
+                <h3>Skills & Tools</h3>
+                <ul class="resume-skills">
+                    <li>HTML, CSS, Basic Python</li>
+                    <li>React, Bootstrap</li>
+                    <li>Burp Suite, Nmap, Hydra</li>
+                    <li>VS Code, Wireshark</li>
+                </ul>
+            </div>
+
+            <div class="resume-section">
+                <h3>Certifications</h3>
+                <ul class="resume-skills">
+                    <li>Digital Productivity - NIIT</li>
+                    <li>Design Thinking - A primer - IIT Madras</li>
+                </ul>
+            </div>
+
+            <div class="resume-footer">
+                <a href="#" class="btn btn-primary">Download PDF</a>
+            </div>
+        </div>
+    </div>
+</div>
+    <script src="script.js"></script>
+</body>
+</html>
